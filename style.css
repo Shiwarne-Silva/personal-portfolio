@@ -27,7 +27,12 @@ a,
 }
 
 /* DESKTOP NAV */
-
+.logopic {
+  color: black;
+}
+.logopic:hover {
+  text-decoration: none;
+}
 nav,
 .nav-links {
   display: flex;
@@ -281,6 +286,10 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+}
+
+.text-container {
+  text-align: justify;
 }
 
 .about-pic {
