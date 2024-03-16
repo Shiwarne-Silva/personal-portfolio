@@ -395,18 +395,46 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
+  margin-bottom: 5rem;
   width: 90%;
   height: 90%;
 }
 
 .project-title {
-  margin: 1rem;
+  margin: 0.5rem;
   color: black;
 }
 
-.project-btn {
+.projectDes {
+  text-align: justify;
+}
+
+.project-btn-1 {
+  margin-top: 23px;
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.project-btn-2 {
+  margin-top: 15px;
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+.project-btn-3 {
+  margin-top: 63px;
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+.moreProjects {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.moreProjects:hover {
+  color: #4352c5;
+  text-decoration: underline;
 }
 
 /* CONTACT */
