@@ -2,27 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-/*.dark-mode {
-  background-color: #222;
-  color: #fff;
-}
-
-.dark-mode a {
-  color: #fff;
-}*/
-
-/* Update button styles for dark mode */
-/*.dark-mode .btn-color-1,
-.dark-mode .btn-color-2 {
-  border-color: #aaa;
-}
-
-.dark-mode .btn-color-1:hover,
-.dark-mode .btn-color-2:hover {
-  background: #333;
-  color: #fff;
-}*/
-
 * {
   margin: 0;
   padding: 0;
