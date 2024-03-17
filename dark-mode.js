@@ -6,19 +6,19 @@ const darkModeEnabled = localStorage.getItem("darkModeEnabled") === "true";
 
 // Function to enable dark mode
 function enableDarkMode() {
-  themeStyle.href = "css/dark-mode.css";
+  themeStyle.href = "dark-mode.css";
   localStorage.setItem("darkModeEnabled", "true");
 }
 
 // Function to disable dark mode
 function disableDarkMode() {
-  themeStyle.href = "css/style.css";
+  themeStyle.href = "style.css";
   localStorage.setItem("darkModeEnabled", "false");
 }
 
 // Toggle between dark mode and light mode
 darkModeToggle.addEventListener("click", () => {
-  if (themeStyle.href.includes("css/style.css")) {
+  if (themeStyle.href.includes("style.css")) {
     enableDarkMode();
   } else {
     disableDarkMode();
@@ -38,19 +38,19 @@ const isEnabledDarkMode = localStorage.getItem("darkModeEnabled") === "true";
 
 // Function to enable dark mode
 function activateDarkMode() {
-  styleTheme.href = "css/dark-mode.css";
+  styleTheme.href = "dark-mode.css";
   localStorage.setItem("darkModeEnabled", "true");
 }
 
 // Function to disable dark mode
 function deactivateDarkMode() {
-  styleTheme.href = "css/style.css";
+  styleTheme.href = "style.css";
   localStorage.setItem("darkModeEnabled", "false");
 }
 
 // Toggle between dark mode and light mode
 toggleDarkMode.addEventListener("click", () => {
-  if (styleTheme.href.includes("css/style.css")) {
+  if (styleTheme.href.includes("style.css")) {
     activateDarkMode();
   } else {
     deactivateDarkMode();
