@@ -83,7 +83,7 @@
   }
   .nav-links {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.1rem;
     text-align: center;
   }
   .section__pic-container {
@@ -187,7 +187,7 @@
   }
   .nav-links {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.1rem;
     text-align: center;
   }
   .section__pic-container {
