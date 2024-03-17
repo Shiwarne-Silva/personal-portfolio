@@ -29,3 +29,35 @@ darkModeToggle.addEventListener("click", () => {
 if (darkModeEnabled) {
   enableDarkMode();
 }
+
+const toggleDarkMode = document.getElementById("dark-mode-toggle");
+const styleTheme = document.getElementById("theme-style");
+
+// Check if dark mode preference is stored in local storage
+const isEnabledDarkMode = localStorage.getItem("darkModeEnabled") === "true";
+
+// Function to enable dark mode
+function activateDarkMode() {
+  styleTheme.href = "dark-mode.css";
+  localStorage.setItem("darkModeEnabled", "true");
+}
+
+// Function to disable dark mode
+function deactivateDarkMode() {
+  styleTheme.href = "style.css";
+  localStorage.setItem("darkModeEnabled", "false");
+}
+
+// Toggle between dark mode and light mode
+toggleDarkMode.addEventListener("click", () => {
+  if (styleTheme.href.includes("style.css")) {
+    activateDarkMode();
+  } else {
+    deactivateDarkMode();
+  }
+});
+
+// Set initial theme based on user preference
+if (isEnabledDarkMode) {
+  activateDarkMode();
+}

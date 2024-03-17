@@ -77,6 +77,17 @@ a:hover {
 
 /* HAMBURGER MENU */
 
+.menu-links #dark-mode-toggle {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-color: white;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  margin-left: 19px;
+  font-size: 13.5px;
+}
+
 #hamburger-nav {
   display: none;
 }
@@ -501,6 +512,10 @@ footer p {
 }
 
 #dark-mode {
+  color: white;
+}
+
+#dark-mode #dark-mode-toggle {
   color: white;
 }
 
