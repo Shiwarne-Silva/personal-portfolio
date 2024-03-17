@@ -76,6 +76,7 @@ a:hover {
 }
 
 /* HAMBURGER MENU */
+
 .menu-links #dark-mode-toggle {
   font-family: "Poppins", sans-serif;
   border: none;
@@ -117,7 +118,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: rgb(255, 255, 255, 0);
+  background-color: rgb(32, 32, 32, 0);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -487,6 +488,65 @@ footer p {
   text-align: center;
 }
 
+/* DARK MODE */
+
+/*DARK MODE - HOME*/
+#dark-mode {
+  background-color: rgb(32, 32, 32);
+}
+
+#dark-mode p {
+  color: white;
+}
+
+#dark-mode h1 {
+  color: white;
+}
+
+#dark-mode a {
+  color: white;
+}
+
+#dark-mode button {
+  color: white;
+}
+
+#dark-mode {
+  color: white;
+}
+
+#dark-mode #dark-mode-toggle {
+  color: white;
+}
+
+/*DARK MODE - ABOUT*/
+
+#dark-mode h3 {
+  color: black;
+}
+
+#dark-mode .temp1 {
+  color: black;
+}
+
+/*DARK MODE - PROJECTS*/
+
+#dark-mode .projectDes {
+  color: black;
+}
+
+#dark-mode .project-btn-1 {
+  color: black;
+}
+
+#dark-mode .project-btn-2 {
+  color: black;
+}
+
+#dark-mode .project-btn-3 {
+  color: black;
+}
+
 /*DARK MODE TOGGLE BUTTON*/
 
 input {
@@ -545,7 +605,7 @@ svg {
 }
 
 input[type="checkbox"]:checked + .display {
-  background: #2c2c2f;
+  background: rgb(32, 32, 32);
 }
 input[type="checkbox"]:checked + .display label {
   background: #1f1f21;
