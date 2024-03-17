@@ -460,6 +460,11 @@ article .icon {
   height: 2.5rem;
 }
 
+.qrCode {
+  height: 100%;
+  width: 12%;
+}
+
 /* FOOTER SECTION */
 
 footer {
