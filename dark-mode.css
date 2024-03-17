@@ -669,6 +669,11 @@ label:active .circle {
   cursor: pointer;
   z-index: 9999;
 }
+
+#progress i {
+  font-size: 25px;
+}
+
 #dark-mode #progress-value {
   display: block;
   height: calc(100% - 15px);
